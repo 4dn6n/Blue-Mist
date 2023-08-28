@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+
+body{
+  background-color: #000;
+}
+
+
+li, a, h2, h3, p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: azure;
+  text-align: center;
+}
+
+header{
+  position: fixed;
+  z-index: 100;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 86px;
+  width: 100%;
+  background-color:white;
+  padding: 0 30px;
+}
+
+img{
+  height: 50px;
+  width: auto;
+  margin-right: auto;
+}
+
+.links{
+  list-style: none;
+}
+
+.links li{
+  padding: 0 20px;
+  display: inline-block;
+  
+}
+
+.links li a{
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+  color: #000;
+  font-size: 1.5rem;
+}
+
+.links li a:hover{
+  color: coral;
+}
+
+
+
+#banner{
+  background-image: url("../resources/images/banner.jpg");
+  height: 880px;
+  width: auto;
+  background-size: cover;
+  background-position-y: 60px;
+}
+
+
+
+.content{
+  /*background-color: cornflowerblue;*/
+  padding: 2rem 30px;
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content .products{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 32px 0;
+}
+
+.content .products h2, h2{
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.content .products .text{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 32px;
+}
+
+.content .products .text p{
+  font-size: 1.5rem;
+}
+
+.content .products span{
+  font-style: italic ;
+  font-size: 1.4rem;
+  color: gray;
+}
+
+.content .products .images{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+}
+
+.content .products .images img{
+  height: 500px;
+  width: auto;
+  margin: 0;
+}
+
+
+.content .team{
+  padding: 32px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content .team .cards{
+  display: inline-flex;
+  justify-content:center;
+  flex-wrap: wrap;
+  gap: 32px;
+  padding-top: 40px;
+}
+
+.content .team .cards img{
+  height: 500px;
+  width: auto;
+}
+
+.content .team .cards h3{
+font-size: 1.25rem;
+padding: 20px 0;
+font-style: italic;
+color: gray;
+}
+
+.mission {
+  height: 200px;
+  width: 100%;
+  padding: 5rem 0;
+}
+
+.mission h2{
+  font-size: 1,5rem;
+  text-align: center;
+  color:gray;
+  font-style: italic;
+  font-weight: lighter;
+}
